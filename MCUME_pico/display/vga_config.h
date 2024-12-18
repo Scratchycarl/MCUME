@@ -36,7 +36,7 @@
 #define VGA_GPIO_FIRST	VGA_COLORBASE	// first VGA GPIO
 #ifdef VGA222
 #define VGA_GPIO_OUTNUM	6   // number of VGA color GPIOs, without HSYNC and VSYNC
-#define VGA_GPIO_NUM	7	// number of VGA GPIOs, including HSYNC and VSYNC
+#define VGA_GPIO_NUM	9	// number of VGA GPIOs, including HSYNC and VSYNC
 #else
 #define VGA_GPIO_OUTNUM	8	// number of VGA color GPIOs, without HSYNC and VSYNC
 #define VGA_GPIO_NUM	9	// number of VGA GPIOs, including HSYNC and VSYNC
@@ -63,3 +63,4 @@
 #define VGA_DMA_NUM	(LAYERS*2)	// number of used DMA channels
 #define VGA_DMA_FIRST	VGA_DMA		// first used DMA
 #define VGA_DMA_LAST	(VGA_DMA_FIRST+VGA_DMA_NUM-1) // last used DMA
+

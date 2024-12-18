@@ -63,12 +63,12 @@
 #ifdef PICOZX
 
 // Speaker
-#define AUDIO_PIN       7
+#define AUDIO_PIN       9
 // VGA
 /* RRGGBB
    CSYNC */
-#define VGA_COLORBASE   0
-#define VGA_SYNCBASE    6
+#define VGA_COLORBASE   14
+#define VGA_SYNCBASE    22
 
 #else /* PICOZX */
 // Speaker
